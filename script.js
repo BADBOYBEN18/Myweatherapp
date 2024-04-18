@@ -12,7 +12,7 @@ searchBtn.addEventListener('click', function () {
   setInterval(() => {
     request.open(
       'GET',
-      `http://api.weatherapi.com/v1/current.json?key=189a35ffbb994c5483d142448241204&q=${search.value}&aqi=yes`
+      `https://api.weatherapi.com/v1/current.json?key=189a35ffbb994c5483d142448241204&q=${search.value}&aqi=yes`
     );
 
     request.onerror = function () {
