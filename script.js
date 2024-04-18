@@ -16,7 +16,7 @@ searchBtn.addEventListener('click', function () {
     );
 
     request.onerror = function () {
-      alert('Could not find weather');
+      console.log('Could not find weather');
     };
 
     request.onload = () => {
