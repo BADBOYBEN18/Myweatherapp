@@ -22,6 +22,7 @@ searchBtn.addEventListener('click', function () {
     request.onload = () => {
       // console.log(request);
       // console.log(request.responseText);
+  
 
       let myData = request.responseText;
       // console.log(myData);
